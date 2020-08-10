@@ -45,3 +45,36 @@
    </tfoot>
 
 </table>
+
+<table class="sortable stats_table now_sortable" id="br-salaries" data-cols-to-freeze="2"><caption>Salaries</caption>
+   <colgroup><col><col><col><col><col><col><col></colgroup>
+   <thead>      
+      <tr>
+         <th aria-label="Year" data-stat="year_ID" scope="col" class=" poptip sort_default_asc show_partial_when_sorting left" data-tip="A Star indicates an all-star that season.<br>A Ring indicates the player appeared in WS for winning team.">Year</th>
+         <th aria-label="Player’s age at midnight of June 30th of that year" data-stat="age" scope="col" class=" poptip sort_default_asc show_partial_when_sorting center" data-tip="Player’s age at midnight of June 30th of that year">Age</th>
+         <th aria-label="Tm" data-stat="team_name" scope="col" class=" poptip sort_default_asc left">Tm</th>
+         <th aria-label="Salary" data-stat="Salary" scope="col" class=" poptip hide_non_quals center" data-tip="These values may not include every bonus the player received in a season.<br>They are also often missing values for mid-season callups or players acquired in-season.<br>Post-1984 seasons are mostly complete, pre-1985 is mostly incomplete.">Salary</th>
+         <th aria-label="Player&amp;#x2019;s service time in YY.DDD format typically through the end of the last completed season. Service time determines when a player reaches arbitration or free agency." data-stat="service_time" scope="col" class=" poptip center" data-tip="Player&amp;#x2019;s service time in YY.DDD format typically through the end of the last completed season.<br>Service time determines when a player reaches arbitration or free agency.">SrvTm</th>
+         <th aria-label="Sources" data-stat="source" scope="col" class=" poptip center">Sources</th>
+         <th aria-label="Notes/Other Sources" data-stat="notes" scope="col" class=" poptip center">Notes/Other Sources</th>
+      </tr>
+      
+   </thead>
+   <tbody>
+<tr data-row="0"><th scope="row" class="left " data-stat="year_ID">2017</th><td class="left " data-stat="age">24</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2017" data-amount="547500.00" csk="547500.00">$547,500</td><td class="right " data-stat="service_time">0.152</td><td class="left " data-stat="source">contracts</td><td class="left iz" data-stat="notes"></td></tr>
+<tr data-row="1"><th scope="row" class="left " data-stat="year_ID">2018</th><td class="left " data-stat="age">25</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2018" data-amount="587500.00" csk="587500.00">$587,500</td><td class="right " data-stat="service_time">1.152</td><td class="left iz" data-stat="source"></td><td class="left iz" data-stat="notes"></td></tr>
+<tr data-row="2"><th scope="row" class="left " data-stat="year_ID">2019</th><td class="left " data-stat="age">26</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2019" data-amount="6000000.00" csk="6000000.00">$6,000,000</td><td class="right " data-stat="service_time">2.152</td><td class="left " data-stat="source">contract</td><td class="left iz" data-stat="notes"></td></tr>
+<tr data-row="3"><th scope="row" class="left " data-stat="year_ID">2020</th><td class="left " data-stat="age">27</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2020" data-amount="6250000.00" csk="6250000.00">$6,250,000</td><td class="right " data-stat="service_time">3.152</td><td class="left iz" data-stat="source"></td><td class="left iz" data-stat="notes"></td></tr>
+<tr class="spacer partial_table" data-row="4"><th scope="row" class="left iz" data-stat="year_ID"></th><td class="left iz" data-stat="age"></td><td class="left iz" data-stat="team_name"></td><td class="right iz" data-stat="Salary"></td><td class="right iz" data-stat="service_time"></td><td class="left iz" data-stat="notes" colspan="2"></td></tr>
+<tr data-row="5"><th scope="row" class="left " data-stat="year_ID">2021</th><td class="left " data-stat="age">28</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2020" data-amount="6500000" data-future="1">$6,500,000</td><td class="right iz" data-stat="service_time"></td><td class="left " data-stat="notes" colspan="2"><strong></strong> </td></tr>
+<tr data-row="6"><th scope="row" class="left " data-stat="year_ID">2022</th><td class="left " data-stat="age">29</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2020" data-amount="6750000" data-future="1">$6,750,000</td><td class="right iz" data-stat="service_time"></td><td class="left " data-stat="notes" colspan="2"><strong></strong> </td></tr>
+<tr data-row="7"><th scope="row" class="left " data-stat="year_ID">2023</th><td class="left " data-stat="age">30</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2020" data-amount="8500000" data-future="1">$8,500,000</td><td class="right iz" data-stat="service_time"></td><td class="left " data-stat="notes" colspan="2"><strong></strong> </td></tr>
+<tr data-row="8"><th scope="row" class="left " data-stat="year_ID">2024</th><td class="left " data-stat="age">31</td><td class="left " data-stat="team_name">Minnesota&nbsp;Twins</td><td class="right " data-stat="Salary" data-year="2020" data-amount="10000000" data-future="1">*$10,000,000</td><td class="right iz" data-stat="service_time"></td><td class="left " data-stat="notes" colspan="2"><strong>$10M Team Option, $1M Buyout</strong> Salary may increase based on awards</td></tr>
+<tr data-row="9"><th scope="row" class="right iz" data-stat="status_head" colspan="2"></th><td class="right " data-stat="status" colspan="5"><strong>Earliest Free Agent</strong>: 2024</td></tr>
+
+   </tbody>
+   <tfoot><tr data-row="10"><th scope="row" class="right " data-stat="total_head" colspan="3"><strong>Career to date</strong> (may be incomplete)</th><td class="right " data-stat="salary_total" data-amount="total">$13,385,000</td><td class="right " data-stat="notes" colspan="3">Does not include future salaries ($21.75M)</td></tr>
+
+   </tfoot>
+
+</table>
